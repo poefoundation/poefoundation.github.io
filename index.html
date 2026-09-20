@@ -1,15 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Poe Foundation helps children learn, communicate, and thrive through programs focused on literacy, early childhood education, speech and language development, and inclusive learning." />
+  <title>The Poe Foundation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background: #f0f4f8;
+      color: #2b2b2b;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 0.75rem 2rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav { margin-top: 0.5rem; }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: normal;
+    }
+    nav a:hover { color: #a8c0e0; }
+    nav .donate {
+      background: #4169e1;
+      padding: 0.45rem 0.9rem;
+      border-radius: 4px;
+    }
+    nav .donate:hover {
+      background: #345bb3;
+      color: white;
+    }
+    .hero {
+      background: radial-gradient(circle at center, #e6ecf5 0%, #d9e1eb 100%);
+      text-align: center;
+      padding: 5rem 2rem;
+      border-bottom: 4px solid #2c3e50;
+    }
+    .hero img {
+      width: 280px;
+      height: auto;
+      margin-bottom: 2rem;
+      border-radius: 50%;
+      box-shadow: 0 0 25px rgba(44,62,80,0.3);
+    }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #3e4a5a;
+      max-width: 760px;
+      margin: 0 auto 1.5rem auto;
+      line-height: 1.6;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4169e1;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-family: 'Lora', serif;
+      transition: background-color 0.3s ease;
+    }
+    .cta-buttons a:hover { background-color: #345bb3; }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      color: #2c3e50;
+      text-align: center;
+    }
+    .program {
+      background: white;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 10px rgba(44,62,80,0.08);
+      margin-top: 2rem;
+    }
+    .program h3 {
+      font-family: 'Playfair Display', serif;
+      color: #2c3e50;
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    .support { text-align: center; }
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+      font-family: 'Lora', serif;
+    }
+    .footer a {
+      color: #dce6f2;
+      text-decoration: none;
+    }
+    .footer a:hover { color: #a8c0e0; }
+    @media (max-width: 700px) {
+      header { padding: 0.75rem 1rem; }
+      nav a {
+        display: inline-block;
+        margin: 0.4rem 0.45rem;
+      }
+      .hero { padding: 3.5rem 1.25rem; }
+      .hero img { width: 220px; }
+      .hero h1 { font-size: 2.1rem; }
+      section { padding: 2.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>The Poe Foundation</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Our Work</a>
+      <a href="#get-involved">Get Involved</a>
+      <a href="#contact">Contact</a>
+      <a class="donate" href="https://www.zeffy.com/en-US/donation-form/donate-to-help-kids-succeed">Donate</a>
+    </nav>
+  </header>
 
-<html>
-    <head>
-        <title>The Poe Foundation</title>
-    </head>
-    <body>
-        <h1 align="center">The Poe Foundation</h1>
-        <div align="center">
-            16103 NE 99th St.<br>
-            Redmond, WA 98052
-        </div>
-        <hr>
-        Coming soon...
-    </body>
+  <div class="hero">
+    <img src="Logo.png" alt="The Poe Foundation logo">
+    <h1>Helping children learn, communicate, and thrive.</h1>
+    <p>The Poe Foundation is dedicated to expanding opportunities for children through literacy, early learning, communication, and inclusive education.</p>
+    <div class="cta-buttons">
+      <a href="#programs">Explore Our Work</a>
+      <a href="https://www.zeffy.com/en-US/donation-form/donate-to-help-kids-succeed">Support Our Work</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About the Poe Foundation</h2>
+    <p>We believe children do best when they have the tools, resources, and opportunities to learn in ways that work for them.</p>
+    <p>Our focus is on practical ways to reduce barriers to learning—particularly in literacy, speech and language development, early education, and inclusive learning for children with different learning needs.</p>
+    <p><strong>We're beginning that work with reading.</strong></p>
+  </section>
+
+  <section id="programs">
+    <h2>Our Work</h2>
+    <div class="program">
+      <h3>Better Books for Developing Readers</h3>
+      <p>For children who find reading difficult, finding the right book can be a challenge. Books at a comfortable reading level may feel too young, while books written for their age can be frustrating or inaccessible.</p>
+      <p>The Poe Foundation is working to help elementary school libraries build collections that bridge that gap: engaging, age-appropriate books with approachable reading levels and reader-friendly design.</p>
+      <p>Our approach is to provide carefully selected books directly to participating school libraries, helping put better choices within reach of young readers.</p>
+      <p><strong>Our goal: more children finding books they can read successfully—and genuinely want to read.</strong></p>
+    </div>
+  </section>
+
+  <section id="get-involved" class="support">
+    <h2>Help Put Better Books Within Reach</h2>
+    <p>Your support helps fund books for elementary school library collections designed for children who find reading difficult.</p>
+    <div class="cta-buttons">
+      <a href="https://www.zeffy.com/en-US/donation-form/donate-to-help-kids-succeed">Donate to Help Kids Succeed</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to learn more about our work? We'd be glad to hear from you.</p>
+    <p>Email: <a href="mailto:info@poefoundation.org">info@poefoundation.org</a></p>
+  </section>
+
+  <div class="footer">
+    <p>The Poe Foundation</p>
+    <p>&copy; 2026 The Poe Foundation</p>
+  </div>
+</body>
 </html>
